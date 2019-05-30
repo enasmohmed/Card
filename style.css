@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #d1d8de96;
+}
+.box{
+    position: relative;
+    width: 600px;
+    height: 600px;
+}
+
+.flower{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.squar{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    background: #f1e39d;
+}
+
+.light{
+    background: #d06b46;
+    animation: rotate 10s infinite linear;
+}
+
+@keyframes rotate{
+    from{
+      transform: rotate(0deg);
+    } to{
+      transform: rotate(360deg);  
+    }
+}
+
+.greet{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 32%;
+    left: 28%;
+    width: 40%;
+    height: 40%;
+    background: #fff;
+    border-radius: 29px;
+}
+
+h1{
+    color: gold;
+    font-size: 3rem;
+    z-index: 1;
+}
+
+h2{
+    color: #fff;
+    font-size: 4rem;
+    z-index: 1
+}
+ img{
+    position: absolute;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: %;
+    width: 100%;
+    height: 100%;
+    border-radius: 29px;
+     z-index: 
+}
+.custom{
+    position: absolute;
+    top: 0;
+    width: 90%;
+    height: 100px;
+}
+
+button{
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: 2%;
+    background: #f1e39d ;
+    outline: none;
+    color: black;
+    border: none;
+    font-size: 25px;
+}
